@@ -472,6 +472,11 @@ span {
 
 
 /* BREAKPOINTS */
+@media only screen and (max-width: 1920px) {
+    html {
+        font-size: 100%;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
     html {
