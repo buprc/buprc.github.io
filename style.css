@@ -612,6 +612,7 @@ span {
 
     .about img {
         width: 63vw;
+        margin-left: 50px;
     }
 
     .footer {
