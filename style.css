@@ -396,34 +396,29 @@ span {
 .members {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-    justify-content: center;
+    gap: 5rem;
+    justify-items: center; /* Centers items horizontally within each grid cell */
+    margin-top: 5rem;
     margin-bottom: 8rem;
 }
 
 .team-mem {
-    margin: 8px;
+    text-align: center; /* Centers text within each team member container */
 }
 
 .team-mem img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 7rem;
     margin-bottom: 1.5rem;
 }
 
 .team-mem h4 {
     font-size: 2.6rem;
-    text-align: center;
-    justify-content: center;
 }
 
 .team-mem p {
     font-size: 1.6rem;
-    text-align: center;
-    justify-content: center;
 }
 
 /* Footer Design */
@@ -573,6 +568,8 @@ span {
 
     .members {
         grid-template-columns: repeat(2, 1fr);
+        gap: 3rem; /* Adjust gap value for smaller screens */
+        justify-items: center;
     }
 }
 
@@ -584,6 +581,8 @@ span {
 
     .members {
         grid-template-columns: 1fr;
+        gap: 2.5rem; /* Adjust gap value for even smaller screens */
+        justify-items: center;
     }
 
     .team h2 {
@@ -591,7 +590,8 @@ span {
     } 
 
     .members img {
-        margin: 0 150px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .achievement {
