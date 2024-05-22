@@ -171,6 +171,7 @@ span {
 
 .about-img img {
     width: 30vw;
+    margin-right: 50px;
 }
 
 .heading {
@@ -541,8 +542,7 @@ span {
    }
 
    .home-img img {
-        width: 83vw; 
-        margin-top: 4rem;
+        display: none;
    }
 
    .about {
@@ -550,7 +550,7 @@ span {
    }
 
    .about img {
-    width: 83vw; 
+    width: 63vw; 
     margin-top: 4rem;
     }
 
@@ -607,7 +607,7 @@ span {
 
 @media only screen and (max-width: 365px) {
     .home-img img {
-        width: 103vw;
+        display: none;
     }
 
     .about img {
